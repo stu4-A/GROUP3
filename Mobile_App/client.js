@@ -25,7 +25,7 @@
 
 import axios from 'axios';
 
-const API_BASE_URL = 'http://10.170.2.99:8000/careers/api'; // ← IMPORTANT
+const API_BASE_URL = 'http://10.170.2.99:8000/careers/api'; // ← IMPORTANT //Here I used my Ip address to the public so that i can communicate with api of Django Backend
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
